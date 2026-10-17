@@ -276,3 +276,66 @@ body {
   padding: 25px;
   color: black;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  /* Header: stack title above nav */
+  .header {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 16px;
+  }
+  .header nav {
+    padding: 0;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Home: photo on top, text centered below */
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 16px;
+    gap: 30px;
+  }
+  .home h1 { font-size: 36px; }
+  .home h2 { font-size: 44px; padding: 0; }
+  .home h3 { font-size: 22px; }
+  .photo {
+    width: 100%;
+    max-width: 320px;
+    float: none;
+  }
+
+  /* Section spacing and headings */
+  .about, .projects, .contact {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .about h1, .projects h1, .contact h1 { font-size: 34px; }
+
+  /* Projects: one card per row */
+  .projects {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 20px;
+  }
+  .project-card-img {
+    max-width: calc(100% - 20px);
+    height: auto;
+  }
+
+  /* Contact: smaller icons, wrap long URLs */
+  .contact-icon {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    flex-shrink: 0;
+  }
+  .contact h2 { font-size: 18px; }
+  .contact h3 {
+    font-size: 13px;
+    overflow-wrap: anywhere;
+  }
+}
