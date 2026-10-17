@@ -59,10 +59,10 @@ body {
 }
 
 .home h1 {
-  font-family: 'Cause', ui-monospace;
-  font-size: 75px;
+  font-family: 'Poppins', ui-monospace;
+  font-size: 50px;
   margin: 0;
-  text-shadow: 5px 5px 5px #00000083;
+  text-shadow: 5px 5px 0 #00000083;
 }
 
 .home h2 {
@@ -71,14 +71,14 @@ body {
   font-size: 100px;
   margin: 0 0;
   color: #66FCF1;
-  text-shadow: 5px 5px 5px #00000083;
+  text-shadow: 5px 5px 0 #00000083;
 }
 
 .home h3 {
-  font-family: 'Cause', ui-monospace;
+  font-family: 'Poppins', ui-monospace;
   font-size: 50px;
   margin: 0 0;
-  text-shadow: 5px 5px 5px #00000083;
+  text-shadow: 5px 5px 0 #00000083;
 }
 
 .photo {
