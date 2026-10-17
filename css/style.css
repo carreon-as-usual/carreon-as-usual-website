@@ -48,7 +48,7 @@ body {
 .home {
   background: #005158;
   color: #f1f1f1;
-  padding: 100px 30px;
+  padding: 100px 100px 100px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
