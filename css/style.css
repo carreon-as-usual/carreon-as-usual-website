@@ -172,7 +172,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 6px 6px 0 #00000083;
-  transition: transform .7s ease-in-out, box-shadow .7s ease-in-out;;
+  transition: transform .7s ease-in-out, box-shadow .7s ease-in-out;
   display: flex;
   flex-direction: column;
   text-decoration: none;
